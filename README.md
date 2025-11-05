@@ -6,6 +6,10 @@ A world map travel tracker being built while learning ReactJS advance concepts.
 *This repository is part of an ongoing React learning and experimentation phase.  
 Expect frequent updates and iterative improvements.*
 
+## 👀 Preview
+
+<img width="2474" height="1348" alt="image" src="https://github.com/user-attachments/assets/9ffa894a-eb5d-485a-8f8d-48cfad03c4e5" />
+
 ## 📑 Commit Message Convention
 Starting 28/10/2025, this repository follows the Conventional Commits format for better clarity.
 
