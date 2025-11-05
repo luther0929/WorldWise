@@ -20,7 +20,9 @@ export default function Login() {
     function checkIsAuthenticated() {
       if (isAuthenticated === true) {
         console.log('correct');
-        navigate('/app/cities');
+        navigate('/app/cities', {
+          replace: true,
+        });
       }
     }
     checkIsAuthenticated();
