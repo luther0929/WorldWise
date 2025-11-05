@@ -7,7 +7,7 @@ const initialState = {
   isAuthenticated: false,
 };
 
-function reducer(action, state) {
+function reducer(state, action) {
   switch (action.type) {
     case 'login':
       return { ...state, user: action.payload, isAuthenticated: true };
@@ -49,8 +49,9 @@ function AuthProvider({ children }) {
 
 function useAuth() {
   const context = useContext(AuthContext);
-  if (context === undefirned)
+  if (context === undefined)
     throw new Error('AuthContext was used outside AuthProvider');
+  return context;
 }
 
 export { AuthProvider, useAuth };
